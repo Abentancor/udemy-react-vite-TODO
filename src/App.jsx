@@ -10,7 +10,7 @@ const App = () => {
         <div className='flex justify-between py-4'>
           <h1 className='uppercase text-white text-3xl font-semibold tracking-[0.3em]'>Todo</h1>
           <button>
-              <MoonIcon fill=''/>
+              <MoonIcon fill='#fff'/>
           </button>
         </div>
         <form className='bg-white rounded-lg overflow-hidden py-4 flex gap-4 items-center px-4 mb-4'>
