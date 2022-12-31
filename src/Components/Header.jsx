@@ -1,4 +1,4 @@
-import MoonIcon from "./Icons/MoonIcon"
+import IconMoon from "./Icons/IconMoon"
 
 const Header = () => {
   return (
@@ -6,7 +6,7 @@ const Header = () => {
     <div className='flex justify-between py-4'>
       <h1 className='uppercase text-white text-3xl font-semibold tracking-[0.3em]'>Todo</h1>
       <button>
-          <MoonIcon fill='#fff'/>
+          <IconMoon fill='#fff'/>
       </button>
     </div>
 </header>
