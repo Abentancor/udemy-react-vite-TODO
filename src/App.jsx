@@ -1,4 +1,3 @@
-import { data } from 'autoprefixer'
 import React, { useState } from 'react'
 import Footer from './Components/Footer'
 import Header from './Components/Header'
@@ -79,7 +78,7 @@ const App = () => {
 
 
   return (
-   <div className="bg-[url('./assets/images/bg-mobile-light.jpg')] bg-no-repeat bg-contain bg-slate-300 min-h-screen">
+   <div className="bg-[url('./assets/images/bg-mobile-light.jpg')] dark:bg-[url('./assets/images/bg-mobile-dark.jpg')] bg-no-repeat bg-contain bg-slate-300 min-h-screen dark:bg-slate-900">
 
     <Header/>
 

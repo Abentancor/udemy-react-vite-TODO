@@ -1,7 +1,7 @@
 
 const Footer = () => {
   return (
-    <footer className='text-center '>drag & drop to reorder list</footer>
+    <footer className='text-center dark:text-white'>drag & drop to reorder list</footer>
   )
 }
 
