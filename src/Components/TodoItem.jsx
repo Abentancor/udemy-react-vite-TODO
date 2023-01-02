@@ -7,7 +7,7 @@ const TodoItem = ({todo, updateTodo, removeTodo}) => {
 
 
   return (
-  <article className='flex gap-4 py-4 items-center dark:bg-slate-800 border-b-gray-400 border-b px-4 '>
+  <article className='flex gap-4 py-4 items-center dark:bg-slate-800 border-b-gray-400 border-b px-4 transition-all duration-500'>
       <button 
           onClick={()=>updateTodo(id)}
           className= {`w-6 h-6 rounded-full border-2 flex ${completed ? "justify-center items-center bg-gradient-to-r from-blue-400  via-violet-500 to-pink-500" : "inline-block"}`}> 
